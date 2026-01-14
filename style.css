@@ -6,11 +6,11 @@ body{
 }
 #image{
     line-height:650px;
-		width: 575px;
-    height: 650px;
+		width: 40%;
+    height: 30%;
 		border:5px solid black;
-		margin:0 auto;
-    background-color: #8e68ff;
+		margin:auto;
+    background-color: #967bea;
     background-image: url('');
     background-repeat: no-repeat;
     color:#FFFFFF;
@@ -20,9 +20,9 @@ body{
     font-size: 150%;
 }
 .preview{
-		width:10%;
+		width:3%;
 		margin-left:17%;
-    border: 10px solid black;
+    border: 10px solid rgb(198, 240, 198);
 }
 img{
 		width:95%;
