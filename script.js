@@ -1,21 +1,19 @@
 /*Name this external file gallery.js*/
 
-
+ 
+   
 
 
 function upDate(previewPic){
  
   document.getElementById("image").innerText = previewPic.alt;
   document.getElementById("image").style.backgroundImage = `url(${previewPic.src})`;
-  
-  document.querySelectorAll('.preview').setAttributes('tabindex', '0');
 
+  document.querySelectorAll('.preview').forEach(img => img.setAttribute('tabindex', '0'));
+
+ 
 
 	}
-
-  function accessability(){
-
-  }
   
 
   function unDo(){
