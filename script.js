@@ -1,6 +1,14 @@
 /*Name this external file gallery.js*/
 
- 
+
+function accessibility(){
+  for (let i = 0; i < document.querySelectorAll('.preview').length; i++) {
+    document.querySelectorAll('.preview')[i].setAttribute('tabindex', '0');
+  }
+
+  console.log("loaded image" + i)
+
+}
    
 
 

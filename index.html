@@ -8,7 +8,7 @@
 <script src = "script.js"></script>
 
 </head>
-<body>
+<body onload = "accessibility()">
 	
 	<div id = "image">
 		Hover over an image below to display here.
@@ -16,18 +16,17 @@
 	
 	<div class = "pictures-container">
 		
-		<img class = "preview" alt="This is my favirote x-icon image!" src="img/coffeedog.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		<img class = "preview" alt="This is my favirote x-icon image!" src="img/coffeedog.jpeg" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur = "unDo()">
 		
-		<img class = "preview" alt = "My favorite coffee shop, but I have only been there once" src = "img/favoriteCoffeeShop.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		<img class = "preview" alt = "My favorite coffee shop, but I have only been there once" src = "img/favoriteCoffeeShop.JPG" onfocus="upDate(this)" onmouseover = "upDate(this)" onmouseout = "unDo()" onblur = "unDo()">
 		
-		<img class = "preview" src = "img/pictureIHatelol.PNG" alt = "Image I hate; I think lots of you can relate" onmouseover = "upDate(this)" onmouseout= "unDo()">
+		<img class = "preview" src = "img/pictureIHatelol.PNG" alt = "Image I hate; I think lots of you can relate" onfocus="upDate(this)" onmouseover = "upDate(this)" onmouseout= "unDo()" onblur = "unDo()">
 
-		<img class = "preview" src = "img/iMissThisLaptop.JPG" alt = "My first ever laptop, stolen from my room in year 2006" onmouseover = "upDate(this)" onmouseout= "unDo()">
+		<img class = "preview" src = "img/iMissThisLaptop.JPG" alt = "My first ever laptop, stolen from my room in year 2006" onfocus="upDate(this)" onmouseover = "upDate(this)" onmouseout= "unDo()" onblur = "unDo()">
 
-		<img class = "preview" src = "img/theGameIPlayedTheLongest.PNG" alt = "I downloaded this game when my daughter was born" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		<img class = "preview" src = "img/theGameIPlayedTheLongest.PNG" alt = "I downloaded this game when my daughter was born" onfocus="upDate(this)" onmouseover = "upDate(this)" onmouseout = "unDo()" onblur = "unDo()">
 		
-		<img class = "preview" src = "img/almostMyFirstCar.JPG" alt = "I almost but did not buy it in year 2008." onmouseover = "upDate(this)" onmouseout= "unDo()">
-
+		<img class = "preview" src = "img/almostMyFirstCar.JPG" alt = "I almost but did not buy it in year 2008." onfocus="upDate(this)" onmouseover = "upDate(this)" onmouseout= "unDo()" onblur = "unDo()">
 
 	</div> 
 
